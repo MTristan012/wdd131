@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+    nav ul {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 90%;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mini-card {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .mini-card img {
+        width: 120px;
+        height: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 90%;
+    }
+
+    .mini-card img {
+        width: 250px;
+        gap: 2rem;
+        height: auto;
+    }
+}

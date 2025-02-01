@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals - Michel Tristan Perea de la Cruz. This page provides a keyword summary of the content, including HTML, CSS, and JavaScript fundamentals.">
+    <meta name="author" content="Michel Tristan Perea de la Cruz">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+    <title>Temple Album</title>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <button class="menu-btn" type="button" onclick="toggleMenu()">☰</button>
+            <ul id="menu" class="hidden">
+                <li><a href="#">Home</a></li>
+                <li><a href="#old">Old</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#large">Large</a></li>
+                <li><a href="#small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card" id="old">
+            <h2>Old Temples</h2>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/92c33bcbf9cf85483e008d6871f8ced5f6d7b661/full/640%2C/0/default"
+                    alt="Salt Lake Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng">Salt Lake
+                    Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/809f567ccf240d2f1c8e457e8c81fbd94ef96759/full/640%2C/0/default"
+                    alt="Laie Hawaii Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng">Laie
+                    Hawaii Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/2dbb637a01da374959e9b50dd072294645917ea4/full/640%2C/0/default"
+                    alt="Mexico City Mexico Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/mexico-city-mexico-temple?lang=eng">Mexico
+                    City Mexico
+                    Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/53cd8f853566e3d1fbb7a7619801ff4481dba7a6/full/640%2C/0/default"
+                    alt="Frankfurt Germany Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/frankfurt-germany-temple?lang=eng">Frankfurt
+                    Germany
+                    Temple
+                </a>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/32063b0e351e47f76db1a50009f685761f48524d/full/640%2C/0/default"
+                    alt="Stockholm Sweden Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/stockholm-sweden-temple?lang=eng">Stockholm
+                    Sweden
+                    Temple
+                </a>
+                </img>
+            </div>
+        </section>
+        <section class="card" id="new">
+            <h2>New Temples</h2>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/17e2c70d687fffedfe115197e57fa8f5d1d369bb/full/640%2C/0/default"
+                    alt="Rome Italy Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng">Rome Italy
+                    Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/5ec026c4efeaaa19a98e40f0f1b4c6069ae63517/full/640%2C/0/default"
+                    alt="Paris France Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/paris-france-temple?lang=eng">Paris
+                    France Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/8cae06798bb811ec8827eeeeac1ee76df4b07c85/full/640%2C/0/default"
+                    alt="Kinshasa Democratic Republic of the Congo Temple">
+                <a
+                    href="https://www.churchofjesuschrist.org/temples/details/kinshasa-democratic-republic-of-the-congo-temple?lang=eng">Kinshasa
+                    Democratic Republic of the Congo Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/490df500d14611ec90efeeeeac1ee7e67e80c168/full/640%2C/0/default"
+                    alt="Quito Ecuador Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/quito-ecuador-temple?lang=eng">Quito
+                    Ecuador Temple
+                </a>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/e2a28dbb2b14f5f71d79b359cf9f7b88dc480144/full/640%2C/0/default"
+                    alt="Fortaleza Brazil Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/fortaleza-brazil-temple?lang=eng">Fortaleza
+                    Brazil
+                    Temple
+                </a>
+                </img>
+            </div>
+        </section>
+        <section class="card" id="large">
+            <h2>Large Temples</h2>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/92c33bcbf9cf85483e008d6871f8ced5f6d7b661/full/640%2C/0/default"
+                    alt="Salt Lake Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng">Salt Lake
+                    Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/17e2c70d687fffedfe115197e57fa8f5d1d369bb/full/640%2C/0/default"
+                    alt="Rome Italy Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng">Rome Italy
+                    Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/5ec026c4efeaaa19a98e40f0f1b4c6069ae63517/full/640%2C/0/default"
+                    alt="Paris France Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/paris-france-temple?lang=eng">Paris
+                    France Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/8cae06798bb811ec8827eeeeac1ee76df4b07c85/full/640%2C/0/default"
+                    alt="Kinshasa Democratic Republic of the Congo Temple">
+                <a
+                    href="https://www.churchofjesuschrist.org/temples/details/kinshasa-democratic-republic-of-the-congo-temple?lang=eng">Kinshasa
+                    Democratic Republic of the Congo Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/e2a28dbb2b14f5f71d79b359cf9f7b88dc480144/full/640%2C/0/default"
+                    alt="Fortaleza Brazil Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/fortaleza-brazil-temple?lang=eng">Fortaleza
+                    Brazil
+                    Temple
+                </a>
+                </img>
+            </div>
+        </section>
+        <section class="card" id="small">
+            <h2>Small Temples</h2>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/809f567ccf240d2f1c8e457e8c81fbd94ef96759/full/640%2C/0/default"
+                    alt="Laie Hawaii Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng">Laie
+                    Hawaii Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/2dbb637a01da374959e9b50dd072294645917ea4/full/640%2C/0/default"
+                    alt="Mexico City Mexico Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/mexico-city-mexico-temple?lang=eng">Mexico
+                    City Mexico
+                    Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/32063b0e351e47f76db1a50009f685761f48524d/full/640%2C/0/default"
+                    alt="Stockholm Sweden Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/stockholm-sweden-temple?lang=eng">Stockholm
+                    Sweden
+                    Temple
+                </a>
+                </img>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/490df500d14611ec90efeeeeac1ee7e67e80c168/full/640%2C/0/default"
+                    alt="Quito Ecuador Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/quito-ecuador-temple?lang=eng">Quito
+                    Ecuador Temple
+                </a>
+            </div>
+            <div class="mini-card">
+                <img src="https://www.churchofjesuschrist.org/imgs/53cd8f853566e3d1fbb7a7619801ff4481dba7a6/full/640%2C/0/default"
+                    alt="Frankfurt Germany Temple">
+                <a href="https://www.churchofjesuschrist.org/temples/details/frankfurt-germany-temple?lang=eng">Frankfurt
+                    Germany
+                    Temple
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Michel Tristan Perea de la Cruz - Mexico</p>
+        <p>Last Modification <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
