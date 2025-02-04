@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(2, 86, 67);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.weather img {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(173, 8, 8);
+    color: white;
+}
+
+.hero {
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.eagle {
+    display: none;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 1rem;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    .eagle {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        background-image: url("https://images.pexels.com/photos/9240459/pexels-photo-9240459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    h2 {
+        background-color: rgba(227, 233, 114, 0.94);
+        padding: 1rem;   
+    }
+
+    .weather {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
