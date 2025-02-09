@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals - Michel Tristan Perea de la Cruz. This page provides a keyword summary of the content, including HTML, CSS, and JavaScript fundamentals.">
+    <meta name="author" content="Michel Tristan Perea de la Cruz">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <title>Temple Album</title>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <button class="menu-btn" type="button">☰</button>
+            <ul id="menu" class="hidden">
+                <li><a href="#">Home</a></li>
+                <li><a href="#old">Old</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#large">Large</a></li>
+                <li><a href="#small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="mini-card">
+            <h2>Home</h2>
+        </section>
+        <section id="old" class="mini-card">
+            <h2>Old Temples</h2>
+        </section>
+        <section id="new" class="mini-card">
+            <h2>New Temples</h2>
+        </section>
+        <section id="large" class="mini-card">
+            <h2>Large Temples</h2>
+        </section>
+        <section id="small" class="mini-card">
+            <h2>Small Temples</h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Michel Tristan Perea de la Cruz - Mexico</p>
+        <p>Last Modification <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

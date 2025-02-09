@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #444;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.menu-btn {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+nav ul.active {
+    display: flex;
+}
+
+main {
+    gap: 1rem;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:1em;
+}
+
+.mini-card {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mini-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#home{
+    background-color: rgba(0, 251, 255, 0.54)
+}
+
+#old{
+    background-color: rgba(255, 0, 0, 0.49)
+}
+
+#new{
+    background-color: rgba(255, 242, 0, 0.5)
+}
+
+#large{
+    background-color: rgba(34, 255, 0, 0.53)
+}
+
+#small{
+    background-color: rgba(255, 0, 208, 0.44)
+}
