@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Garden & Aquarium Monitor">
+    <meta name="author" content="Michel Tristan Perea de la Cruz">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+    <title>Garden Monitor</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button id="menu-toggle" type="button">☰</button>
+            <ul id="nav-links" class="hidden">
+                <li><a href="garden.html">Garden</a></li>
+                <li><a href="aquarium.html">Aquarium</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="garden_main">
+        <section class="garden">
+            <h2>Small Garden</h2>
+            <div class="video-container">
+                <video src="./images/small_garden.mp4" controls></video>
+            </div>
+            <div id="weather-loading-1" class="spinner hidden"></div>
+            <div class="weather-info" id="weatherCard_1"></div>
+            <form id="watering-form-1" action="#">
+                <button id="start-watering-1" type="submit">Start watering system</button>
+            </form>
+        </section>
+
+        <section class="garden">
+            <h2>Large Garden</h2>
+            <div class="video-container">
+                <video src="./images/large_garden.mp4" controls></video>
+            </div>
+            <div id="weather-loading-2" class="spinner hidden"></div>
+            <div class="weather-info" id="weatherCard_2"></div>
+            <form id="watering-form-2" action="#">
+                <button id="start-watering-2" type="submit">Start watering system</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Michel Tristan Perea de la Cruz - Mexico</p>
+        <p>Last Modification <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
